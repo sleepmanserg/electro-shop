@@ -1,3 +1,11 @@
+@import url(fonts.css);
+
+.rm-product-top {
+  padding: 20px 30px;
+}
+
 .rm-product-top .rm-product-title h1 {
-  font-size: 36px;
+  font-size: clamp(1.25rem, 1.85vw + 0.585rem, 2.25rem);
+  line-height: clamp(2.5rem, 0.994vw + 2.143rem, 3.038rem);
+  padding: 0;
 }
